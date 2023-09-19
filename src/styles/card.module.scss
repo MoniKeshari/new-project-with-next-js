@@ -9,6 +9,9 @@
             border-radius: 12px;
             transition: .5s ease-in-out;
         }
+        img:hover {
+            transform: scale(1.1);
+        }
     }
     .cardContentDiv {
         width: 92%;

@@ -8,6 +8,7 @@
 build/
 yarn.*
 
+node_modules/
 
 # Compiled Java class files
 *.class
