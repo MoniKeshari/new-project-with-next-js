@@ -1,303 +1,39 @@
 {
     "conversation_list": [{
-            "contactName": "José",
-            "lastMessage": "Última mensagem enviada pelo José",
-            "lastTime": "19:15",
-            "image": "avatar.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Temos aula na faculdade hoje?"
-                },
-                {
-                    "me": false,
-                    "message": "Hoje não, apenas amanhã. Não esqueça os trabalhos..."
-                }
-            ]
+            "title": "Tetra Pak Initiative",
+            "content": "The Kabadiwala collaborated with TetraPak India (World’s Leading Beverage Carton Manufacturer) to increase the collection of used beverage cartons (UBC’s) for recycling and diverting them from landfills.",
+
+            "image": "/scrap_images/image9.jpg"
+
         },
         {
-            "contactName": "Maria",
-            "lastMessage": "Última mensagem enviada pelo Maria",
-            "lastTime": "05:43",
-            "image": "avatar2.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Já viu aquela série que está bombando na Netflix?"
-                },
-                {
-                    "me": true,
-                    "message": "Vi sim, achei o máximo e mal posso esperar pela próxima temporada!!!"
-                }
-            ]
+            "title": "Mattress Circular Journey",
+            "content": "ISPF, IPUA and The Kabadiwala came together to initiate India’s first mattress recycling campaign which is named as ‘Feko Nahi Recycle Karo’. The objective is to encourage the community to practise sustainable disposal of Mattress.",
+
+            "image": "/scrap_images/image2.jpg"
+
         },
         {
-            "contactName": "Ana",
-            "lastMessage": "Última mensagem enviada pelo Ana",
-            "lastTime": "11:22",
-            "image": "avatar2.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
+            "title": "Tree Plantation Initiative",
+            "content": "Since the last two years, The Kabadiwala has been following a tradition of planting trees on the occasion of Mahatma Gandhi's Birthday. In which, our customers also take part in our mission to turn Bhopal greener.",
+
+            "image": "/scrap_images/image3.jpg"
         },
         {
-            "contactName": "Pedro",
-            "lastMessage": "Última mensagem enviada pelo Pedro",
-            "lastTime": "10:36",
-            "image": "avatar.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
+            "title": "Kitab Ghar",
+            "content": "Kitab Ghar initiative is a combined effort of The Kabadiwala & Bhopal Municipal Corporation that aims at providing second hand books to the underprivileged children by acquiring them from the people who no longer need them.",
+
+            "image": "/scrap_images/image2.jpg"
+
         },
         {
-            "contactName": "Paula",
-            "lastMessage": "Última mensagem enviada pelo Paulo",
-            "lastTime": "14:15",
-            "image": "avatar2.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "Rogério",
-            "lastMessage": "Última mensagem enviada pelo Rogério",
-            "lastTime": "17:27",
-            "image": "avatar.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "Rafael",
-            "lastMessage": "Última mensagem enviada pelo Rafael",
-            "lastTime": "18:16",
-            "image": "avatar3.png",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "Marcela",
-            "lastMessage": "Última mensagem enviada pelo Marcela",
-            "lastTime": "07:24",
-            "image": "avatar2.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "Marcos",
-            "lastMessage": "Última mensagem enviada pelo Marcos",
-            "lastTime": "20:46",
-            "image": "avatar.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "Patricia",
-            "lastMessage": "Última mensagem enviada pelo Patricia",
-            "lastTime": "13:18",
-            "image": "avatar2.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "Samuel",
-            "lastMessage": "Última mensagem enviada pelo Samuel",
-            "lastTime": "14:33",
-            "image": "avatar2.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "João",
-            "lastMessage": "Última mensagem enviada pelo João",
-            "lastTime": "19:42",
-            "image": "avatar3.png",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "Luiz",
-            "lastMessage": "Última mensagem enviada pelo Luiz",
-            "lastTime": "16:13",
-            "image": "avatar.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "Marcos",
-            "lastMessage": "Última mensagem enviada pelo Marcos",
-            "lastTime": "22:36",
-            "image": "avatar.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "Alberto",
-            "lastMessage": "Última mensagem enviada pelo Alberto",
-            "lastTime": "21:27",
-            "image": "avatar3.png",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
-        },
-        {
-            "contactName": "Bianca",
-            "lastMessage": "Última mensagem enviada pelo Bianca",
-            "lastTime": "12:18",
-            "image": "avatar2.jpg",
-            "messageHistory": [{
-                    "me": true,
-                    "message": "Olá tudo bem com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Tudo ótimo e com você?"
-                },
-                {
-                    "me": false,
-                    "message": "Amanhã você irá no churrasco?"
-                }
-            ]
+            "title": "Plastic Wall Experiment",
+            "content": "On International Plastic Bag Free day, The Kabadiwala placed a wall made up of polythene bags, wrappers, and plastic packing material, in a busy market area to block people’s way. Click below to learn why we did this.",
+
+            "image": "/scrap_images/image5.jpg"
+
         }
+
+
     ]
 }

@@ -1,0 +1,122 @@
+.modal-dialog {
+    max-width: 80%;
+}
+
+.inputfield {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    border-color: #8e8e8e;
+    border: none;
+    &::placeholder {
+        font-size: 14px;
+        font-weight: 400;
+        color: #8e8e8e;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.textArea {
+    width: 100%;
+    padding: 4px 7px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    border: none;
+    &::placeholder {
+        font-size: 14px;
+        font-weight: 400;
+        color: #8e8e8e;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.dropdown_data {
+    width: 100%;
+    padding: 13px 10px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #8e8e8e;
+    font-family: Arial, Helvetica, sans-serif;
+    option {
+        font-weight: normal;
+        font-size: 14px;
+        color: #8e8e8e;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.dropdown_data:focus option {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.forlabel {
+    font-size: 16px;
+    font-weight: 600;
+    color: #8e8e8e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Recaptcha_google {
+    margin-top: 25px;
+}
+
+.custom_modal {
+    .model_header {
+        border-bottom: none;
+        justify-content: center;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        .modal_title {
+            .text_h3 {
+                transition: filter 0.2s ease 0s;
+            }
+        }
+    }
+}
+
+.custom_footer {
+    border-top: none;
+    justify-content: center;
+}
+
+.button_custom {
+    width: 22%;
+    min-height: 50px;
+    border-radius: 27px;
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+}
+
+.button_custom:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
+.waviy {
+    position: relative;
+}
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.0s * var(--i));
+    animation-iteration-count: 1
+}
+
+@keyframes flip {
+    0%,
+    80% {
+        transform: rotatex(360deg)
+    }
+}
