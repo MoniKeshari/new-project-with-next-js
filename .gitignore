@@ -21,6 +21,13 @@ yarn.*
 # Package files
 *.jar
 
+.next/cache/webpack/client-development/
+.next/server/pages-manifest.json
+.next/static/chunks/webpack.js
+.next/static/webpack/webpack.779262c8d10da2e5.hot-update.js
+.next/trace
+
+
 # Maven
 target/
 dist/
