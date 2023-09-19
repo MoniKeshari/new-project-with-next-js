@@ -3,15 +3,11 @@
     margin-bottom: 24px;
     .cardImageDiv {
         border-radius: 12px;
+        overflow: hidden;
         img {
             width: 100%;
             border-radius: 12px;
-            // display: block;
-            // object-fit: cover;
-            // min-height: 200px;
-             :hover {
-                transition: all .3s linear;
-            }
+            transition: .5s ease-in-out;
         }
     }
     .cardContentDiv {
