@@ -6,27 +6,42 @@ node_modules/
 /.pnp
 .pnp.js
 .next/
+next
+/.next
+.cache/
 build/
 yarn.*
+.cache/
+
 
 # Compiled Java class files
 *.class
-
+.next/trace
 # Compiled Python bytecode
 *.py[cod]
-
+.next/build-manifest.json
+ .next/server/webpack-runtime.js
 # Log files
 *.log
 
+
+
+
+
 # Package files
 *.jar
+build/
+out/
 
 .next/cache/webpack/client-development/
 .next/server/pages-manifest.json
 .next/static/chunks/webpack.js
 .next/static/webpack/webpack.779262c8d10da2e5.hot-update.js
 .next/trace
+package-lock.json
 
+.vscode/
+.idea/
 
 # Maven
 target/
