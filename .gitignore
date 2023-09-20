@@ -11,6 +11,8 @@ next
 .cache/
 build/
 yarn.*
+.cache/
+
 
 # Compiled Java class files
 *.class
