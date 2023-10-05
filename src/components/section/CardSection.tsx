@@ -5,7 +5,7 @@ const CardSection = ({ dataArray }: { dataArray: any }) => {
   return (
     <>
       <div className="row">
-        {dataArray?.conversation_list.map((item: any, index: number) => (
+        {dataArray?.map((item: any, index: number) => (
           <div key={index} className="col-md-4 col-sm-12">
             <CardComponent
               key={index}
@@ -14,9 +14,9 @@ const CardSection = ({ dataArray }: { dataArray: any }) => {
               cardContentTag={style.cardContentDiv}
               cardTitle={style.cardTitle}
               cardContent={style.cardContent}
-              images={item.image}
-              title={item.title}
-              content={item.content}
+              images={item?.yoast_head_json?.og_image}
+              title={item.yoast_head_json?.og_title}
+              content={item.yoast_head_json.description}
             />
           </div>
         ))}

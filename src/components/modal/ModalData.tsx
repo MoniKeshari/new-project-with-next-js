@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import InputBaseField from "../input/InputBaseField";
 import style from "../../styles/modal.module.scss";
@@ -24,7 +23,7 @@ const ModalData = (props: FormData) => {
     }
   };
   return (
-    <>
+    <div className={style.modal_wrapper}>
       <Modal
         show={isOpen}
         onHide={handleCloseModal}
@@ -104,7 +103,7 @@ const ModalData = (props: FormData) => {
           />
         </Modal.Footer>
       </Modal>
-    </>
+    </div>
   );
 };
 

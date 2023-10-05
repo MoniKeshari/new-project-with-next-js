@@ -11,38 +11,42 @@ const NavBar = () => {
 
   const handleOpenModal = () => {
     dispatch(openModal());
-    console.log(dispatch(openModal()), "check");
   };
   return (
-    <div className="container">
-      <div className={style.main_class}>
-        <div className={style.nav_div}>
-          <div className={style.first_div}>
-            <div className={style.circle_div}>
-              <div className={style.cir_img}>
-                <Image src="/next.svg" width={30} height={30} alt="" />
+    <div className={`container-fluid ${style.conatiner_wrapper}`}>
+      <div className="container">
+        <div className={style.main_class}>
+          <div className={style.nav_div}>
+            <div className={style.first_div}>
+              {/* <div className={style.circle_div}> */}
+                {/* <div className={style.cir_img}> */}
+                  <Image src="/scrapshala-green-logo.png" width={40} height={30} alt="" />
+                {/* </div> */}
+              {/* </div> */}
+              <div className={style.third_div}>  <Link href="/">Home</Link> </div>
+
+            </div>
+            <div className={style.third_div}>
+              <div>
+                <Link href="/pagesRoute/service">Services</Link>
               </div>
-            </div>
-            <div> Home</div>
-          </div>
-          <div className={style.third_div}>
-            <div>
-              <Link href="/pagesRoute/service">Services</Link>
-            </div>
-            <div>
-              <Link href="/pagesRoute/about">About</Link>
-            </div>
-            <div>
-              <ButtonComponent
-                label="Pickup Request"
-                onClickHandler={handleOpenModal}
-                buttonclassname={style.button_custom}
-              />
+              <div>
+                <Link href="/pagesRoute/about">About</Link>
+              </div>
+              <div>
+                <ButtonComponent
+                  label="Pickup Request"
+                  onClickHandler={handleOpenModal}
+                  buttonclassname={style.button_custom}
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
+
   );
 };
 

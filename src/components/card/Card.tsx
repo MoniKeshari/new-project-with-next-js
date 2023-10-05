@@ -14,17 +14,24 @@ const CardComponent = ({
   cardWrapperClass?: string;
   cardImageTag?: string;
   cardContentTag?: string;
-  cardTitle?:string;
-  cardContent?:string;
-  images?:any;
-  content?:string;
-  title?:string;
+  cardTitle?: string;
+  cardContent?: string;
+  images?: any;
+  content?: string;
+  title?: string;
 }) => {
+  console.log(title, "title", images, "images");
+
   return (
     <>
       <div className={`${cardWrapperClass}`}>
         <div className={`${cardImageTag}`}>
-          <Image src={images} alt="images" width={274} height={300} />
+          {images?.map((item: any, index: number) => (
+            <Image key={index} src={item.url} alt="images" width={274} height={300} />
+
+          )
+          )}
+
         </div>
 
         <div className={cardContentTag}>

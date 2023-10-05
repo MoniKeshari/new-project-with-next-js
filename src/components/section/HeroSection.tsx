@@ -1,29 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "../layout/Layout";
-import ModalData from "../modal/ModalData";
-import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "@/redux-toolkit/store";
-import { closeModal } from "@/redux-toolkit/firstslice";
-import data from "../../data.json";
 import CardSection from "./CardSection";
+import ShimmerComponent from "../shimmer/Shimmer";
+// import CarouselComponent from "../carousel/CarouselComponent";
 
 const HeroSection = () => {
-  const { isOpen } = useSelector((state: RootState) => state.modalSlice);
-  const dispatch = useDispatch();
-  const handleCloseModal = () => {
-    dispatch(closeModal());
-  };
+  const [apiResponse, setapiResponse] = useState([])
+  useEffect(() => {
+    fetchData()
+
+  }, [])
+  const fetchData = async () => {
+    const apiReq = await fetch("https://scrapuncle.w3api.net/v1/meta/blogs");
+    const response = await apiReq.json();
+    setapiResponse(response)
+  }
+  console.log(apiResponse, "apiResponse");
+
+
   return (
     <Layout>
-      <div>
-        <ModalData
-          isOpen={isOpen}
-          handleCloseModal={handleCloseModal}
-          title="Contact Form"
-        />
+      <div className="container-fluid mt-5">
+        {/* <CarouselComponent /> */}
+
       </div>
-      <div className="container">
-        <CardSection dataArray={data}/>
+      <div className="container mt-3">
+        {
+          apiResponse.length > 0 ? <CardSection dataArray={apiResponse} />
+            :
+            <ShimmerComponent />}
+
+
       </div>
     </Layout>
   );
