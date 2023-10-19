@@ -1,0 +1,1 @@
+export const getHomeCardApi="https://scrapuncle.w3api.net/v1/meta/blogs";

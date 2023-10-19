@@ -1,0 +1,61 @@
+.carousel_wrapper {
+    .carousel_inner {
+        img {
+            width: auto;
+
+        }
+
+        .carousel_item {
+            display: flex;
+            justify-content: center;
+            /* Center the image horizontally */
+            align-items: center;
+            /* Center the image vertically */
+            height: 100%;
+
+            /* Make the carousel item take up the full height of the container */
+            img {
+                max-width: 100%;
+                max-height: 100%;
+                width: auto;
+                // height: auto;
+            }
+
+        }
+    }
+}
+
+/* carousel.module.scss */
+
+.container-fluid {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    justify-content: space-between;
+}
+
+.image_source {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+justify-content: center;
+align-items: center;
+background-color: #5f93db;
+background-size: cover;
+    img {
+        width: 100%;
+        height:300px;
+        object-fit: contain;
+    }
+}
+
+.carousel_card_wrapper {
+    display: flex;
+}
+
+/* Add more styles as needed */
